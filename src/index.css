@@ -19,6 +19,28 @@ code {
   /* this also makes the note list responsive   */
 
 }
+.note.new{
+  background-color: #67d7cc;
+}
+textarea{
+  border: none;
+  resize: none;
+  background-color: #67d7cc;
+
+}
+textarea:focus{
+  outline:none;
+}
+.save:hover{
+  background-color: #ededed;
+  cursor: pointer;
+}
+.save{
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
 .note{
   background-color: #fef68a;
   border-radius: 10px;
