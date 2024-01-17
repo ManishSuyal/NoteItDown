@@ -44,6 +44,7 @@ textarea:focus{
 .note{
   background-color: #fef68a;
   border-radius: 10px;
+  white-space: pre;     /*help us to maintain the space if given between the line */
   padding: 1rem;
   min-height: 170px;
   display: flex;    /*  arrange the child items in a singel row  ..... flexbox work by directly poisitioning its children  */
@@ -64,4 +65,34 @@ padding-left: 15px;
  display: flex;
   align-items: center; 
     justify-content: space-between; 
+}
+.delete-icon{
+   cursor: pointer;
+}
+.search{
+  display: flex;
+  align-items: center;
+  background-color: rgb(233,233,233);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+.search input{ 
+ border: none;
+ background-color: rgb(233,233,233);
+}
+.search input:focus{
+  outline: none;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dark-mode{
+  background-color: black;
+
+}
+.dark-mode h1{
+  background-color: white;
 }
