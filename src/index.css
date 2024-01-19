@@ -58,6 +58,7 @@ margin-right: auto;
 margin-left: auto;
 padding-right: 15px;
 padding-left: 15px;
+min-height: 100vh;
 
 }
 
@@ -93,6 +94,6 @@ padding-left: 15px;
   background-color: black;
 
 }
-.dark-mode h1{
-  background-color: white;
+.dark-mode h1 {
+  color: white;
 }
